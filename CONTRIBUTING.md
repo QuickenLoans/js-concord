@@ -13,10 +13,10 @@ behavior to at least one of the people listed in the [Maintainers] list.
 
 ## Response Time
 
-Maintainers should respond to all new comments, issues and pull requests within
-24 hours; even if that response is to say that it will be longer before any
-meaningful feedback can be given. *Please allow for some leniency during any
-holidays.*
+Maintainers should respond to all new comments, issues, and pull requests by
+the next business day; even if that response is to say that it will be longer
+before any meaningful feedback can be given. *Please allow for some leniency
+during any holidays.*
 
 It is important to be transparent with what is happening with a proposed
 change. Not all proposed changes will be accepted as not all changes will align
