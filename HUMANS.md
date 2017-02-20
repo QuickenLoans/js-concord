@@ -29,7 +29,7 @@ Name                      | Twitter               | Location
 Name                      | Twitter               | Location
 ----                      | -------               | --------
 Kalis, Joshua             | @kalisjoshua          | Detroit, MI
-
+Carroll, D. Scott         | @scott_scottux        | Davidson, NC
 
 [Code of Conduct]: CODE_OF_CONDUCT.md
 [Contributing Guide]: CONTRIBUTING.md
