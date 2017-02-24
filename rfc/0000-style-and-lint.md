@@ -25,9 +25,10 @@ interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 ## Motivation
 [Motivation]: #motivation
 
-To achieve a more consistent code-editing experience across many projects a
-single style should be followed so that code written for one project will
-"look" as if it was written in/for any other project. This should promote
+The goal is to achieve a consistent code-editing experience across many
+projects. A single style should be followed so that code written for one
+project will "look" as if it was written in/for any other project. It should be
+hard to distinguish code written by different developers. This should promote
 people contributing to other projects directly or through "sharing" code.
 
 Choosing a single lint(ing) tool/utility will simplify dependency footprint
@@ -46,9 +47,13 @@ The lint(ing) tool to enforce the style is [ESLint].
 ## Drawbacks
 [Drawbacks]: #drawbacks
 
-<!--
-Why should we *not* do this?
--->
+  - **Restriction** - some developers might feel that a standard like this
+    prevents them from writing, "the way *they* like to"; to some extent that
+    is exactly true.
+  - **Onboarding** - when new people join the team these decisions might need
+    to be (re)justified or, possibly, defended.
+  - **Position** - defining/adopting a standard puts a target on us for making
+    the decisions that we have/will.
 
 
 ## Alternatives
