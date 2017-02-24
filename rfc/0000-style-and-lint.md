@@ -25,10 +25,10 @@ interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 ## Motivation
 [Motivation]: #motivation
 
-To achieve a more consistent code-editing experience across project a single
-style should be followed so that code written for one project will "look" as if
-it was written in/for any other project. This should promote people
-contributing to other projects directly or through "sharing" code.
+To achieve a more consistent code-editing experience across many projects a
+single style should be followed so that code written for one project will
+"look" as if it was written in/for any other project. This should promote
+people contributing to other projects directly or through "sharing" code.
 
 Choosing a single lint(ing) tool/utility will simplify dependency footprint
 and enable people to share knowledge or project configuration. Further, this
