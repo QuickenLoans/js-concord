@@ -39,7 +39,7 @@ Commit messages should follow the [commit message format] (included in the root
 directory of this repository). You can set this template as the default text
 for any commit messages by using the following command:
 
-```bash
+```shell
 $ git config --add commit.template ./commit.template
 ```
 
@@ -48,7 +48,6 @@ for this repository and will not affect any of your other repositories.*
 
 Read more about the [Git Commit Templating] feature.
 
-
 [Code of Conduct]: CODE_OF_CONDUCT.md
 [commit message format]: commit.template
 [Contributing Guide]: CONTRIBUTING.md
@@ -56,7 +55,6 @@ Read more about the [Git Commit Templating] feature.
 [Contributor Covenant]: http://contributor-covenant.org
 [Git Commit Templating]: https://git-scm.com/docs/git-commit#git-commit---templateltfilegt
 [GitHub Guides]: https://guides.github.com/
-[Contributors]: humans.md
-[Maintainers]: humans.md
+[Maintainers]: HUMANS.md
 [issues]: https://github.com/kalisjoshua/lean-rfc/issues
-[Lean RFC]: rfc/PROCESS.md
+[Lean RFC]: https://github.com/kalisjoshua/lean-rfc
