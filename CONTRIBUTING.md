@@ -35,8 +35,8 @@ should be posed as [issues] and discussed there.
 
 ### Commit Messages
 
-Commit messages should follow the [commit message format] (included in the root
-directory of this repository). You can set this template as the default text
+Commit messages should follow the [commit message format] &#40;included in the root
+directory of this repository&#41;. You can set this template as the default text
 for any commit messages by using the following command:
 
 ```shell
