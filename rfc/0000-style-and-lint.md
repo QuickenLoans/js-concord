@@ -1,4 +1,4 @@
-# Title-cased Name of the Feature
+# Code style and enforcement lint(er) tool
 
   - Status: proposal
   - Type: Recommendation
@@ -43,6 +43,9 @@ common starting point.
 The recommended coding style for JavaScript is the [AirBnB JavaScript Style].
 The lint(ing) tool to enforce the style is [ESLint].
 
+Projects should include, as a dependency, the [eslint-config-airbnb] and
+configure ESLint to enforce those rules.
+
 
 ## Drawbacks
 [Drawbacks]: #drawbacks
@@ -86,4 +89,5 @@ What parts of the design are still to be done?
 
 
 [AirBnB JavaScript Style]: https://github.com/airbnb/javascript
+[eslint-config-airbnb]: https://www.npmjs.com/package/eslint-config-airbnb
 [ESLint]: http://eslint.org/
