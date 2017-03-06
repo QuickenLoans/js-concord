@@ -65,7 +65,7 @@ is JavaScript.
 ### Transpilers
 [Transpilers]: #transpilers
 
-Also known as "compile-to-js" languages becuase the source language is very
+Also known as "compile-to-js" languages because the source language is very
 much not JavaScript; typically an established language in its own right.
 
   - [CoffeeScript](http://coffeescript.org/)
