@@ -41,15 +41,38 @@ common starting point.
 [Design]: #design
 
 The recommended JavaScript preprocessor is [Babel] for all projects that aren't
-using a library or framework that would be better aligned with [TypeScript].
+using a library or framework that would be better aligned with [TypeScript]. It
+is suggested as "best practice" to incorporate a preprocessor - unless some
+design aspect of the project specifically conflicts with the use of a
+preprocessor - as this will allow for more consistent code editing between
+projects.
 
 
 ## Drawbacks
 [Drawbacks]: #drawbacks
 
+### Added Complexity
+
+Including a preprocessor, for "compiling" source code into "delivery" code,
+increases the complexity of the project; this forces project maintainers and
+contributors to understand how to configure and execute the tooling.
+
+The addition of complexity is something that should be evaluated against the
+goals of each project; the benefits, that a preprocessor provide, should
+"out weigh" the costs before including the preprocessor.
+
+### Wider Dependency Graph
+
+Adding dependencies to a project is not something that should be trivialized or
+ignored at any stage of a project's development. As the dependency graph of a
+code-base grows so to does the difficulty of keeping all dependencies
+"up-to-date".
+
 
 ## Alternatives
 [Alternatives]: #alternatives
+
+There is a subtle distinction between [Preprocessors] and [Transpilers].
 
 ### Preprocessors
 [Preprocessors]: #preprocessors
