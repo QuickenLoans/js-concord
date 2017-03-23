@@ -3,7 +3,7 @@
   - Status: proposal
   - Type: Recommendation
   - Start Date: 2017-03-08
-  - Discussion:
+  - Discussion: https://github.com/QuickenLoans/js-concord/issues/4
   - Supersedes: none
   - Superseded by: none
 
@@ -26,8 +26,7 @@ interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 [Motivation]: #motivation
 
 Until support for native module loading is widely available, a separate bundling
-or loading tool is necessary to make effective use of JavaScript modules. The goal
-of this standard is to recommend one tool so projects can implement modules in a
+or loading tool is necessary to make effective use of JavaScript modules. The standard's goal is to recommend one tool so projects can implement modules in a
 consistent way. This will enable more knowledge sharing and will make it easier for
 developers to switch between projects.
 
@@ -35,9 +34,9 @@ developers to switch between projects.
 ## Design
 [Design]: #design
 
-It's suggested as a "best practice" for projects to incorporate a JavaScript bundler and the recommended bundler is [Webpack](https://webpack.js.org/).
+It's suggested that projects SHOULD incorporate a JavaScript bundler and the RECOMMENDED bundler is [Webpack](https://webpack.js.org/).
 
-Additionally, these are some recommended Webpack loaders that will help with standards compliance:
+Additionally, these are some RECOMMENDED Webpack loaders that will help with standards compliance:
 
   - [Babel Loader](https://github.com/babel/babel-loader)
   - [ES Lint Loader](https://github.com/MoOx/eslint-loader)
