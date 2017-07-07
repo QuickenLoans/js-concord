@@ -26,7 +26,7 @@ goal of cross project tool-chain consistency.
 # Design
 
 The recommended JavaScript testing framework is [Mocha] for all projects that aren't
-using a library or framework that would be better aligned with [Jest].
+using a framework that recommends another. For example, the most popular choice for testing AngularJS applications is [Jasmine], while the creators of React use [Jest].
 
 ## Drawbacks
 
